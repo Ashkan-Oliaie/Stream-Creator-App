@@ -1,0 +1,43 @@
+.bodyContainer{
+  display: flex;
+  transition: all 1s;
+}
+
+
+
+
+.SideBar{
+  background-color: #6affc2;
+  height: 200vh;
+  width:3rem;
+  transition: all 1s;
+
+  .SideBar-item{
+    display: none;
+  }
+  .SideBarItemsToggle{
+    display: block;
+  }
+
+
+}
+
+.SideBarToggle{
+  width: 10rem;
+
+
+}
+
+
+
+@media screen and (max-width:600px) {
+  .bodyContainer{
+    flex-flow: column;
+
+    .SideBar{
+      width: 100%;
+      height: 100%;
+      transition: none;
+    }
+  }
+}

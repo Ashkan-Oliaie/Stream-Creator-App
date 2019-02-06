@@ -1,0 +1,124 @@
+
+
+
+$primari-color: #3ba29e;
+$p-color-light: #bafff8;
+
+html *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navContainer{
+  position: sticky;
+  top:0;
+  z-index: 21;
+  width: 100%;
+}
+
+nav{
+  background-color: #e0e0e0;
+  padding:0 0;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  overflow: hidden;
+
+  .navTogglerButton{
+    display: flex;
+    padding: 0 1.5rem;
+
+
+    cursor: pointer;
+    align-self: center;
+    height: 35%;
+    justify-content: space-between;
+    flex-flow: column;
+
+    .navTogglerIcon{
+      background-color: #121529;
+      width: 20px;
+      height: 3px;
+    }
+  }
+
+  .navToggleBtnHide{
+    display: none;
+  }
+
+  .navBrand{
+    padding:1rem;
+    margin-left: 2rem;
+    color: #000;
+    a{
+      text-decoration: none;
+
+    }
+  }
+
+  .navItems{
+    display: flex;
+    flex-flow: column;
+    transition: max-height 1s;
+    max-height: 0px;
+    grid-column: 1/-1;
+
+
+    li{
+      padding: 1rem;
+      text-align: center;
+
+
+
+      list-style: none;
+
+      a{
+        color:$primari-color;
+
+        text-decoration: none;
+        &:hover{
+          color: darken($primari-color,10);
+          //background-color: #deffff;
+        }
+      }
+    }
+
+  }
+
+
+}
+
+
+@media screen and (min-width:800px) {
+
+  nav .navTogglerButton{
+    display:none ;
+  }
+
+  nav .navItems{
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    grid-column: 2/3;
+    li{
+      //width: inherit;
+      //height: inherit;
+      padding: 1rem 1rem;
+      &.imp{
+        padding:0.7rem 1rem
+      }
+
+    }
+
+    a{
+      grid-column: 2/3;
+    }
+
+
+  }
+
+
+
+
+}

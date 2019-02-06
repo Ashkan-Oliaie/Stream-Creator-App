@@ -1,0 +1,70 @@
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navContainer {
+  position: sticky;
+  top: 0;
+  z-index: 21;
+  width: 100%; }
+
+nav {
+  background-color: #e0e0e0;
+  padding: 0 0;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  overflow: hidden; }
+  nav .navTogglerButton {
+    display: flex;
+    padding: 0 1.5rem;
+    cursor: pointer;
+    align-self: center;
+    height: 35%;
+    justify-content: space-between;
+    flex-flow: column; }
+    nav .navTogglerButton .navTogglerIcon {
+      background-color: #121529;
+      width: 20px;
+      height: 3px; }
+  nav .navToggleBtnHide {
+    display: none; }
+  nav .navBrand {
+    padding: 1rem;
+    margin-left: 2rem;
+    color: #000; }
+    nav .navBrand a {
+      text-decoration: none; }
+  nav .navItems {
+    display: flex;
+    flex-flow: column;
+    transition: max-height 1s;
+    max-height: 0px;
+    grid-column: 1/-1; }
+    nav .navItems li {
+      padding: 1rem;
+      text-align: center;
+      list-style: none; }
+      nav .navItems li a {
+        color: #3ba29e;
+        text-decoration: none; }
+        nav .navItems li a:hover {
+          color: #2d7d7a; }
+
+@media screen and (min-width: 800px) {
+  nav .navTogglerButton {
+    display: none; }
+
+  nav .navItems {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    grid-column: 2/3; }
+    nav .navItems li {
+      padding: 1rem 1rem; }
+      nav .navItems li.imp {
+        padding: 0.7rem 1rem; }
+    nav .navItems a {
+      grid-column: 2/3; } }
+
+/*# sourceMappingURL=headerGrid.css.map */
