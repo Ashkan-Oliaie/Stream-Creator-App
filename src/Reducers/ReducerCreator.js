@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {combineReducers} from "redux";
-import TaskList from "../Component/TODO/TaskList";
+import TaskList from "../Component/Items/TaskList";
 
 
 class ReducerCreator extends React.Component{
@@ -16,6 +16,15 @@ class ReducerCreator extends React.Component{
 
 
 
+	TaskList(state={},action){
+		if(action.type==="GET_TASKS"){
+			return action.payload}
+		else{ return state
+		}
+	}
+
+
+
 
 	GetGoogleAuth(state=null,action){
 		if(action.type==='GOOGLE_AUTH'){
@@ -25,6 +34,14 @@ class ReducerCreator extends React.Component{
 		}
 	}
 
+
+	GetAuthInfo(state="",action){
+		if(action.type==='AUTH_INFO'){
+			return action.payload
+		}else{
+			return state
+		}
+	}
 
 
 
@@ -48,7 +65,8 @@ const Reducers=new ReducerCreator
 export default combineReducers({
 	tasks:Reducers.TaskList,
 	auth:Reducers.GetGoogleAuth,
-	checkAuth:Reducers.CheckAuth
+	checkAuth:Reducers.CheckAuth,
+	authInfo:Reducers.GetAuthInfo
 })
 
 

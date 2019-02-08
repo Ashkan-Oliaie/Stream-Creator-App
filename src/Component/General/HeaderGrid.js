@@ -48,8 +48,7 @@ class Headergrid extends React.Component{
 						<li className="">
 
 								<a className="" href="#">
-									<Link to={"/stream/new"} >Create more
-									</Link>
+									Discover
 								</a>
 
 
@@ -57,7 +56,7 @@ class Headergrid extends React.Component{
 
 						<li className="">
 							<a className="" href="#">
-								<a>Discover more</a>
+								<a>About</a>
 							</a>
 						</li>
 

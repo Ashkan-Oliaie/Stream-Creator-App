@@ -17,7 +17,7 @@ class GoogleAuth extends React.Component{
 			}).then(()=>{
 				const auth=window.gapi.auth2.getAuthInstance();
 				auth.isSignedIn.listen(this.onAuthChange)
-				this.props.GoogleAuth(auth)
+				this.props.GoogleAuth(auth);
 
 
 			})
@@ -28,8 +28,12 @@ class GoogleAuth extends React.Component{
 
 		if(this.props.signedIn){
 			this.props.auth.signOut()
+
 		}else {
 			this.props.auth.signIn()
+			this.props.GetAuthInfo(this.props.auth)
+
+
 
 		}
 		this.props.GoogleCheckAuth()
@@ -79,12 +83,13 @@ const mapStateToProps=(state)=> {
 	return {
 		auth:state.auth,
 		signedIn:state.checkAuth,
-
+		authInfo:state.authInfo
 	}
 }
 
 export default connect(
 	mapStateToProps,{
-	GoogleAuth:Actions.GoogleAuth,
-	GoogleCheckAuth:Actions.GoogleCheckAuth
+		GoogleAuth:Actions.GoogleAuth,
+		GoogleCheckAuth:Actions.GoogleCheckAuth,
+		GetAuthInfo:Actions.GetAuthInfo,
 })(GoogleAuth)

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import HeaderGrid from './Component/General/HeaderGrid'
 import {BrowserRouter,Route} from "react-router-dom";
-import SideBar from './Component/Stream/SideBar'
+import SideBar from './Component/Pages/SideBar'
 
-import TaskList from './Component/TODO/TaskList'
+import TaskList from './Component/Items/TaskList'
 import AppCss from './CSS/APP.css'
 
 
@@ -33,10 +33,9 @@ class App extends Component {
               <div>
                   <HeaderGrid/>
                   <div className={"bodyContainer"} ref={this.ContainerRef}>
-                      <Route path="/stream" component={SideBar}/>
-                      <div>
-                          <Route path="/" exact  />
-                          <Route path="/tasklist" exact component={TaskList} />
+                      <Route path="/" component={SideBar}/>
+                      <div className=" text-center py-5 w-100">
+                          <Route path="/" exact component={TaskList} />
                           <Route path="/s" exact component={this.item1} />
                           <Route path="/stream/delete" exact component={this.item1} />
                           <Route path="/stream/edit" exact component={this.item1} />

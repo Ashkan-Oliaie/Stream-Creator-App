@@ -12,6 +12,13 @@ class ActionCreator extends React.Component{
 
 	}
 
+	TaskGenerator(tasks){
+		return{
+			type:'GET_TASKS',
+			payload:tasks
+		}
+	}
+
 
 
 	GoogleAuth(auth){
@@ -21,6 +28,12 @@ class ActionCreator extends React.Component{
 		}
 	}
 
+	GetAuthInfo(auth){
+		return{
+			type:'AUTH_INFO',
+			payload:{userID:auth.currentUser.get().getId()}
+		}
+	}
 
 
 	GoogleCheckAuth(){

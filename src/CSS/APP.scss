@@ -7,12 +7,15 @@
 
 
 .SideBar{
-  background-color: #6affc2;
+  overflow-x: hidden;
+  white-space: nowrap;
+  background-color: rgba(224, 224, 224, 0.95);
   height: 200vh;
   width:3rem;
-  transition: all 1s;
+  transition: all 0.4s ease-out;
 
   .SideBar-item{
+    padding:1rem;
     display: none;
   }
   .SideBarItemsToggle{
@@ -27,6 +30,16 @@
 
 
 }
+
+
+.TaskList{
+  li{
+    list-style: none;
+    background-color: #d0eaff;
+    border-bottom: 1px black solid;
+  }
+}
+
 
 
 
