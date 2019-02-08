@@ -1,5 +1,4 @@
 import React from 'react'
-import SideCss from './SideBar.css'
 
 
 class SideBar extends React.Component{

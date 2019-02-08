@@ -2,31 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7e8c02-fb6c-4bb9-ad38-e9b8ff0134c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/Items/TaskList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Pages/SideBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Pages/StreamShow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actions/ActionCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/ActionCreator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CSS/.sass-cache/1218ddcad7fe544984bf3146cc22895d605104c5/APP.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/.sass-cache/1218ddcad7fe544984bf3146cc22895d605104c5/APP.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CSS/APP.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/APP.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CSS/APP.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/APP.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CSS/APP.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/APP.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/General/HeaderGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/General/HeaderGrid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/General/O-Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/General/O-Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Stream/.sass-cache/adad7a2e887af638647ee72396204d0b26e0f60c/SideBar.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/.sass-cache/adad7a2e887af638647ee72396204d0b26e0f60c/SideBar.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Stream/SideBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/SideBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Stream/SideBar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/SideBar.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Stream/SideBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Stream/SideBar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Stream/StreamCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/SideBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Stream/StreamDelete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/StreamCreate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Stream/StreamEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/StreamDelete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Stream/StreamList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/StreamEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Stream/StreamShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/StreamList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/TODO/TaskList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/TODO/addToList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Items/addToList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Items/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Items/TaskList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Pages/SideBar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Pages/SideBar.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Pages/SideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pages/SideBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Pages/SideBar.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Reducers/ReducerCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/ReducerCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -55,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="186">
+              <caret line="39" column="64" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="64" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -64,13 +56,48 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Component/General/HeaderGrid.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Component/Items/addToList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+            <state relative-caret-position="110">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="e#1#26#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Component/Items/TaskForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#140#211#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CSS/APP.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+              <folding>
+                <element signature="e#69#336#0" />
+                <element signature="e#352#373#0" />
               </folding>
             </state>
           </provider>
@@ -79,10 +106,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Component/Items/TaskList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="281">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
               <folding>
-                <element signature="n#!!block;n#renderTaskList#0;n#TaskList#0" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Component/General/O-Auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="281">
+              <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -103,15 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Actions/ActionCreator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="n#!!block;n#AddTask#0;n#ActionCreator#0" />
-                <element signature="n#!!block;n#TaskGenerator#0;n#ActionCreator#0" />
-                <element signature="n#!!block;n#GoogleAuth#0;n#ActionCreator#0" />
-                <element signature="n#!!block;n#GetAuthInfo#0;n#ActionCreator#0" />
-                <element signature="n#!!block;n#GoogleCheckAuth#0;n#ActionCreator#0" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -119,14 +139,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Reducers/ReducerCreator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="205">
+              <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-                <element signature="n#!!block;n#TaskList#0;n#ReducerCreator#0" />
-                <element signature="n#!!block;n#TaskList#1;n#ReducerCreator#0" />
-                <element signature="n#!!block;n#GetGoogleAuth#0;n#ReducerCreator#0" />
-                <element signature="n#!!block;n#GetAuthInfo#0;n#ReducerCreator#0" />
               </folding>
             </state>
           </provider>
@@ -145,6 +161,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>container</find>
+      <find>Right</find>
+      <find>form</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,20 +192,24 @@
         <option value="$PROJECT_DIR$/src/Component/TODO/addToList.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.asp" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Component/General/headerGrid.scss" />
         <option value="$PROJECT_DIR$/test/.git/COMMIT_EDITMSG" />
         <option value="$PROJECT_DIR$/test/LICENSE.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Component/Stream/SideBar.scss" />
         <option value="$PROJECT_DIR$/src/Component/Stream/SideBar.js" />
-        <option value="$PROJECT_DIR$/src/CSS/APP.scss" />
-        <option value="$PROJECT_DIR$/src/Component/General/O-Auth.js" />
-        <option value="$PROJECT_DIR$/src/Actions/ActionCreator.js" />
-        <option value="$PROJECT_DIR$/src/Reducers/ReducerCreator.js" />
         <option value="$PROJECT_DIR$/src/Component/TODO/TaskList.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Component/General/HeaderGrid.js" />
+        <option value="$PROJECT_DIR$/src/Component/Pages/SideBar.js" />
+        <option value="$PROJECT_DIR$/src/Component/Pages/RightSideBar.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Reducers/ReducerCreator.js" />
+        <option value="$PROJECT_DIR$/src/Actions/ActionCreator.js" />
+        <option value="$PROJECT_DIR$/src/Component/Items/TaskList.js" />
+        <option value="$PROJECT_DIR$/src/Component/General/O-Auth.js" />
+        <option value="$PROJECT_DIR$/src/CSS/APP.scss" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/Component/Items/TaskForm.js" />
       </list>
     </option>
   </component>
@@ -201,13 +224,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="materialtestui" type="b2602c69:ProjectViewProjectNode" />
               <item name="materialtestui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="materialtestui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="materialtestui" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="materialtestui" type="b2602c69:ProjectViewProjectNode" />
@@ -222,6 +249,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,7 +323,8 @@
       <workItem from="1549470269092" duration="11224000" />
       <workItem from="1549564784728" duration="650000" />
       <workItem from="1549578210422" duration="31000" />
-      <workItem from="1549617948586" duration="1312000" />
+      <workItem from="1549617948586" duration="1817000" />
+      <workItem from="1549635018838" duration="24699000" />
     </task>
     <task id="LOCAL-00001" summary="h">
       <created>1549391222078</created>
@@ -308,7 +337,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95264000" />
+    <option name="totallyTimeSpent" value="120468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,6 +350,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13945803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -413,49 +443,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Items/addToList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="14" column="72" lean-forward="true" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/git-test.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/LICENSE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="11" selection-start-column="11" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/.git/COMMIT_EDITMSG">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/README.md" />
+    <entry file="file://$PROJECT_DIR$/test/git-test.md" />
+    <entry file="file://$PROJECT_DIR$/test/LICENSE.md" />
+    <entry file="file://$PROJECT_DIR$/test/.git/COMMIT_EDITMSG" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -470,46 +461,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Pages/SideBar.css">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/General/HeaderGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+          <folding>
+            <element signature="e#1#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Pages/SideBar.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Pages/RightSideBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="39" column="64" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Items/addToList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Pages/SideBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        <state relative-caret-position="95">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reducers/ReducerCreator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSS/APP.scss">
+    <entry file="file://$PROJECT_DIR$/src/Actions/ActionCreator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="171">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reducers/ReducerCreator.js">
+    <entry file="file://$PROJECT_DIR$/src/Component/General/O-Auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="281">
+          <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="n#!!block;n#TaskList#0;n#ReducerCreator#0" />
-            <element signature="n#!!block;n#TaskList#1;n#ReducerCreator#0" />
-            <element signature="n#!!block;n#GetGoogleAuth#0;n#ReducerCreator#0" />
-            <element signature="n#!!block;n#GetAuthInfo#0;n#ReducerCreator#0" />
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSS/APP.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+          <folding>
+            <element signature="e#69#336#0" />
+            <element signature="e#352#373#0" />
           </folding>
         </state>
       </provider>
@@ -517,63 +552,37 @@
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/General/O-Auth.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Actions/ActionCreator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="n#!!block;n#AddTask#0;n#ActionCreator#0" />
-            <element signature="n#!!block;n#TaskGenerator#0;n#ActionCreator#0" />
-            <element signature="n#!!block;n#GoogleAuth#0;n#ActionCreator#0" />
-            <element signature="n#!!block;n#GetAuthInfo#0;n#ActionCreator#0" />
-            <element signature="n#!!block;n#GoogleCheckAuth#0;n#ActionCreator#0" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Items/TaskList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="281">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
           <folding>
-            <element signature="n#!!block;n#renderTaskList#0;n#TaskList#0" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/Component/Items/TaskForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="110">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/General/HeaderGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-          <folding>
-            <element signature="e#1#26#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#140#211#0" />
           </folding>
         </state>
       </provider>

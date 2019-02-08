@@ -32,6 +32,65 @@
 }
 
 
+
+
+
+.RightSideBar{
+  display: block;
+  overflow-x: hidden;
+  white-space: nowrap;
+  background-color: rgba(224, 224, 224, 0.95);
+  height: 200vh;
+  width:3rem;
+  transition: all 0.4s ease-out;
+
+  button{
+    width: 3rem;
+  }
+
+  .RightSideBar-item{
+    padding:1rem;
+    display: none;
+  }
+  .RightSideBarItemsToggle{
+    display: block;
+  }
+
+
+}
+
+.RightSideBarToggle{
+  width: 10rem;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.TaskForm{
+  border: none;
+//  outline: none;
+  &:focus,
+  &:active
+  {
+    -webkit-box-shadow: none;
+    border:none;
+    outline:none !important;
+-webkit-appearance: none  }
+}
+
+
+
+
+
 .TaskList{
   li{
     list-style: none;

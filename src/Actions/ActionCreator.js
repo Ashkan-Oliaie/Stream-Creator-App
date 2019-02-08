@@ -20,32 +20,47 @@ class ActionCreator extends React.Component{
 	}
 
 
+	signIn(userId){
+		return(dispatch)=>{
+			return dispatch({
+				type:"SIGN_IN",
+				payload:userId
+			})
+		}
+	}
 
-	GoogleAuth(auth){
+	signOut(){
+		return{
+			type:"SIGN_OUT"
+		}
+	}
+
+
+	googleAuth(auth){
 		return{
 			type:'GOOGLE_AUTH',
 			payload:auth
 		}
 	}
-
-	GetAuthInfo(auth){
-		return{
-			type:'AUTH_INFO',
-			payload:{userID:auth.currentUser.get().getId()}
-		}
-	}
-
-
-	GoogleCheckAuth(){
-		return (dispatch,getState)=>{
-			if(getState().auth.isSignedIn.get()){
-				dispatch({type:'SIGNED_IN'})
-			}else{
-				dispatch({type:'SIGNED_OUT'
-				})
-			}
-		}
-	}
+	//
+	// GetAuthInfo(){
+	// 	return async (dispatch,getState)=>{
+	// 		await dispatch({type:'AUTH_INFO',
+	// 			payload:{userID:getState().auth.currentUser.get().getId()}})
+	// 	}
+	// }
+	//
+	//
+	// GoogleCheckAuth(){
+	// 	return (dispatch,getState)=>{
+	// 		if(getState().auth.isSignedIn.get()){
+	// 			dispatch({type:'SIGNED_IN'})
+	// 		}else{
+	// 			dispatch({type:'SIGNED_OUT'
+	// 			})
+	// 		}
+	// 	}
+	// }
 
 
 }

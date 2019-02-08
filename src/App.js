@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import HeaderGrid from './Component/General/HeaderGrid'
 import {BrowserRouter,Route} from "react-router-dom";
 import SideBar from './Component/Pages/SideBar'
+import RightSideBar from './Component/Pages/RightSideBar'
 
 import TaskList from './Component/Items/TaskList'
 import AppCss from './CSS/APP.css'
+import TaskForm from "./Component/Items/TaskForm";
 
 
 
@@ -33,7 +35,7 @@ class App extends Component {
               <div>
                   <HeaderGrid/>
                   <div className={"bodyContainer"} ref={this.ContainerRef}>
-                      <Route path="/" component={SideBar}/>
+                      <Route path="/" exact component={SideBar}/>
                       <div className=" text-center py-5 w-100">
                           <Route path="/" exact component={TaskList} />
                           <Route path="/s" exact component={this.item1} />
@@ -41,6 +43,8 @@ class App extends Component {
                           <Route path="/stream/edit" exact component={this.item1} />
                           <Route path="/stream/show" exact component={this.item1} />
                       </div>
+                      <Route path="/" exact component={RightSideBar}/>
+
 
                   </div>
 

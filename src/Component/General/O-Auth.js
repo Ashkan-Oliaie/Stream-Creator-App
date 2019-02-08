@@ -6,48 +6,57 @@ import Actions from '../../Actions/ActionCreator'
 
 
 
+
 class GoogleAuth extends React.Component{
 
 	componentDidMount() {
-
 		window.gapi.load('client:auth2',()=>{
 			window.gapi.client.init({
 				clientId:'757998981285-8915ntj2lusqhsjn0f61udh7brnq9jbh.apps.googleusercontent.com',
 				scope:'email'
 			}).then(()=>{
-				const auth=window.gapi.auth2.getAuthInstance();
-				auth.isSignedIn.listen(this.onAuthChange)
-				this.props.GoogleAuth(auth);
+				this.auth=window.gapi.auth2.getAuthInstance();
 
+				this.onAuthChange(this.auth.isSignedIn.get());
+				// this.props.getAuth(auth);
+
+
+				this.auth.isSignedIn.listen(this.onAuthChange)
+				// this.props.GoogleAuth(auth);
 
 			})
 		})
 	}
 
-	onAuthChange=()=>{
+	onAuthChange=(isSignedIn)=>{
 
-		if(this.props.signedIn){
-			this.props.auth.signOut()
-
+		if(isSignedIn){
+			this.props.signIn(this.auth.currentUser.get().getId())
 		}else {
-			this.props.auth.signIn()
-			this.props.GetAuthInfo(this.props.auth)
-
-
-
+			this.props.signOut()
+			// this.props.GetAuthInfo()
 		}
-		this.props.GoogleCheckAuth()
-
-
 	}
 
 
 
+	SignInClick=()=>{
+		this.auth.signIn()
 
-	RenderButton(){
-			if(this.props.signedIn){
-				return (
-					<div onClick={this.onAuthChange} className=" navbut btn-danger btn">
+	}
+
+	SignOutClick=()=>{
+		this.auth.signOut()
+
+	}
+
+	RenderButton=()=>{
+			if(this.props.isSignedIn===null){
+				return null
+
+			}else if(this.props.isSignedIn){
+				return(
+					<div onClick={this.SignOutClick} className=" navbut btn-danger btn">
 						<div>
 							<i className="google icon"> </i>
 							<span>Sign Out</span>
@@ -55,8 +64,8 @@ class GoogleAuth extends React.Component{
 					</div>
 				)
 			}else{
-				return(
-					<div onClick={this.onAuthChange} className=" navbut btn-danger btn">
+				return (
+					<div onClick={this.SignInClick} className=" navbut btn-danger btn">
 						<div>
 							<i className="google icon"> </i>
 							<span>Sign In</span>
@@ -70,7 +79,7 @@ class GoogleAuth extends React.Component{
 	}
 
 	render(){
-		console.log(this.props.auth)
+		console.log(this.props)
 		return(
 			<div>
 				{this.RenderButton()}
@@ -81,15 +90,14 @@ class GoogleAuth extends React.Component{
 
 const mapStateToProps=(state)=> {
 	return {
-		auth:state.auth,
-		signedIn:state.checkAuth,
-		authInfo:state.authInfo
+		isSignedIn:state.checkSignedIn.isSignedIn,
+		// auth:state.auth
 	}
 }
 
 export default connect(
 	mapStateToProps,{
-		GoogleAuth:Actions.GoogleAuth,
-		GoogleCheckAuth:Actions.GoogleCheckAuth,
-		GetAuthInfo:Actions.GetAuthInfo,
+		signIn:Actions.signIn,
+		signOut:Actions.signOut,
+		// getAuth:Actions.googleAuth
 })(GoogleAuth)
