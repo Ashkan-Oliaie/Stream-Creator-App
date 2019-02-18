@@ -2,13 +2,20 @@
   display: flex;
   transition: all 1s; }
 
+html * a:hover {
+  text-decoration: none; }
+
 .SideBar {
   overflow-x: hidden;
   white-space: nowrap;
   background-color: rgba(224, 224, 224, 0.95);
-  height: 200vh;
+  height: inherit;
+  min-height: 92vh;
   width: 3rem;
+  min-width: 3rem;
   transition: all 0.4s ease-out; }
+  .SideBar button {
+    min-width: 3rem; }
   .SideBar .SideBar-item {
     padding: 1rem;
     display: none; }
@@ -18,16 +25,22 @@
 .SideBarToggle {
   width: 10rem; }
 
+.ModalMe {
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%); }
+
 .RightSideBar {
   display: block;
   overflow-x: hidden;
   white-space: nowrap;
   background-color: rgba(224, 224, 224, 0.95);
   height: 200vh;
+  min-width: 3rem;
   width: 3rem;
   transition: all 0.4s ease-out; }
   .RightSideBar button {
-    width: 3rem; }
+    min-width: 3rem; }
   .RightSideBar .RightSideBar-item {
     padding: 1rem;
     display: none; }
@@ -37,13 +50,8 @@
 .RightSideBarToggle {
   width: 10rem; }
 
-.TaskForm {
-  border: none; }
-  .TaskForm:focus, .TaskForm:active {
-    -webkit-box-shadow: none;
-    border: none;
-    outline: none !important;
-    -webkit-appearance: none; }
+.TaskForm:focus, .TaskForm:active {
+  -webkit-box-shadow: none; }
 
 .TaskList li {
   list-style: none;

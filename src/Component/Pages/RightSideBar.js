@@ -1,5 +1,8 @@
 import React from 'react'
 
+import MenuIcon from "@material-ui/icons/Menu"
+import Button from "@material-ui/core/es/Button/Button";
+
 
 class SideBar extends React.Component{
 
@@ -13,16 +16,16 @@ class SideBar extends React.Component{
 	render(){
 		return(
 			<div className={"RightSideBar"}>
-				<div className="d-flex  justify-content-between">
-					<button className="btn btn-info mr-auto" onClick={this.RightSideBartoggle}>T</button>
+				<div className="">
+					<Button variant="flat"  className={""} onClick={this.RightSideBartoggle}><MenuIcon/></Button>
 
 					{/*<div className="mb-1 p-2">X</div>*/}
 				</div>
 
 				<div className="d-flex flex-column">
-					<div className={"RightSideBar-item"}>New Stream</div>
-					<div className={"RightSideBar-item"}>Edit Stream</div>
-					<div className={"RightSideBar-item"}>Efg Stream</div>
+					<div className={"RightSideBar-item"}>important</div>
+					<div className={"RightSideBar-item"}>Remind</div>
+					<div className={"RightSideBar-item"}>Add Note</div>
 				</div>
 
 

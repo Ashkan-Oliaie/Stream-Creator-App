@@ -7,6 +7,7 @@ import {connect} from "react-redux";
 
 
 class AddTask extends React.Component{
+
 	render(){
 		return(
 			<Fragment>

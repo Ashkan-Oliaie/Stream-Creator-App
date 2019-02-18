@@ -10,6 +10,7 @@ html *{
   box-sizing: border-box;
 }
 
+
 .navContainer{
   position: sticky;
   top:0;
@@ -50,7 +51,7 @@ nav{
     padding:1rem;
     margin-left: 2rem;
     color: #000;
-    a{
+    a,&:hover{
       text-decoration: none;
 
     }
@@ -74,7 +75,6 @@ nav{
 
       a{
         color:$primari-color;
-
         text-decoration: none;
         &:hover{
           color: darken($primari-color,10);

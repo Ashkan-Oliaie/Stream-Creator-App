@@ -6,6 +6,7 @@ import Headercss from './headerGrid.css'
 import GoogleAuth from './O-Auth'
 import {Link} from "react-router-dom";
 import {Provider} from "react-redux";
+import Button from "@material-ui/core/es/Button/Button";
 
 
 
@@ -33,11 +34,9 @@ class Headergrid extends React.Component{
 		return(
 			<div className={"navContainer"}>
 				<nav className={""}>
-					<a  className={"navBrand h5 "}>
-						<Link to={"/"} className={"text-info"} >
-							OZ Task Manager
+						<Link to={"/stream/list"} className={" navBrand h5 text-info"} >
+							<Button variant={"outlined"} color={"secondary"}>Streams</Button>
 						</Link>
-					</a>
 
 					<div className={"navTogglerButton"} onClick={this.navToggle} >
 						<div className={"navTogglerIcon"}></div>
@@ -47,17 +46,18 @@ class Headergrid extends React.Component{
 					<ul ref={this.navMenu} className="navItems" style={{maxHeight:'0px'}}>
 						<li className="">
 
-								<a className="" href="#">
-									Discover
-								</a>
+							<Link to={"/stream/create"} className={"text-info"} >
+								Create
+							</Link>
 
 
 						</li>
 
 						<li className="">
-							<a className="" href="#">
-								<a>About</a>
-							</a>
+
+							<Link to={"/stream/edit"} className={"text-info"} >
+								Create
+							</Link>
 						</li>
 
 

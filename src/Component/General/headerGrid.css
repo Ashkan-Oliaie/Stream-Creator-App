@@ -33,7 +33,7 @@ nav {
     padding: 1rem;
     margin-left: 2rem;
     color: #000; }
-    nav .navBrand a {
+    nav .navBrand a, nav .navBrand:hover {
       text-decoration: none; }
   nav .navItems {
     display: flex;

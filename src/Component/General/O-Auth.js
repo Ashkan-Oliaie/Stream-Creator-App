@@ -9,7 +9,12 @@ import Actions from '../../Actions/ActionCreator'
 
 class GoogleAuth extends React.Component{
 
+
 	componentDidMount() {
+
+		// this.props.testAuth()
+
+		// console.log(this.props.isSignedIn)
 		window.gapi.load('client:auth2',()=>{
 			window.gapi.client.init({
 				clientId:'757998981285-8915ntj2lusqhsjn0f61udh7brnq9jbh.apps.googleusercontent.com',
@@ -28,7 +33,9 @@ class GoogleAuth extends React.Component{
 		})
 	}
 
+
 	onAuthChange=(isSignedIn)=>{
+		// console.log(this.props.auth.authen)
 
 		if(isSignedIn){
 			this.props.signIn(this.auth.currentUser.get().getId())
@@ -79,7 +86,6 @@ class GoogleAuth extends React.Component{
 	}
 
 	render(){
-		console.log(this.props)
 		return(
 			<div>
 				{this.RenderButton()}
@@ -91,7 +97,6 @@ class GoogleAuth extends React.Component{
 const mapStateToProps=(state)=> {
 	return {
 		isSignedIn:state.checkSignedIn.isSignedIn,
-		// auth:state.auth
 	}
 }
 
@@ -99,5 +104,4 @@ export default connect(
 	mapStateToProps,{
 		signIn:Actions.signIn,
 		signOut:Actions.signOut,
-		// getAuth:Actions.googleAuth
 })(GoogleAuth)

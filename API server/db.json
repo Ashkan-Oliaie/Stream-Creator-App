@@ -1,0 +1,16 @@
+{
+  "streams": [
+    {
+      "StreamTitle": "Ashkan Oliaie",
+      "StreamDescription": "This is the first post",
+      "userId": "105029422972530820090",
+      "id": 1
+    },
+    {
+      "StreamTitle": "Today at work",
+      "StreamDescription": "We got a plane to home",
+      "userId": "105029422972530820090",
+      "id": 2
+    }
+  ]
+}
